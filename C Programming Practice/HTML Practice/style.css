@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+}
+
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    text-decoration: none;
+    background-color: black;
+    color: red;
+    display: block;
+    /* width: fit-content; */
+    margin: 10px 10px;
+    padding: 5px;
+}
+
+
+
+
+h3{
+    background-color: burlywood;
+    width: fit-content;
+    padding: 20px 40px;
+    margin: 25px;
+    border: 5px solid greenyellow;
+    border-radius: 2.1rem;
+    outline: 3px solid red; 
+    outline-offset: -6px;
+
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 50px;
+    text-decoration: underline;
+}
+
+p{
+    word-spacing: 20px;
+    text-indent: 5px;
+    line-height: 2.5rem;
+    text-transform: capitalize;
+}
+
+/* img{
+    border: 3px solid black;
+    border-radius: 200px;
+} */
+
+div{
+    min-height: 100vh;
+    font-size: 8rem;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;   
+    border: 2.5px solid black;
+    border-radius: 40px;
+    margin: 30px 30px;
+}
+
+.class1{
+    background: linear-gradient(rgba(222,318,59,0.3), rgba(0,0,0,0.4)), url(./Img/2.jpg) center/cover fixed no-repeat;
+}
+.class2{
+    background: linear-gradient(rgba(222, 318, 59, 0.3), rgba(0, 0, 0, 0.4)), url(./Img/1.jpg) center/cover no-repeat fixed;
+}
+.class3{
+    background: linear-gradient(rgba(222, 318, 59, 0.3), rgba(0, 0, 0, 0.4)), url(./Img/5.jpg) center/cover no-repeat fixed; 
+}

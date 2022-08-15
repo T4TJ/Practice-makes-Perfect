@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1657450895 source:/home/t-j/Desktop/Just_practice/Hello/main.c
+	<stdio.h>
+	<stdlib.h>
+

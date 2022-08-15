@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+  int myFunction[] = {45, 50, 75, 100};
+  int i;
+
+  for (i=0; 1<4; i++){
+    printf("%d\n", myFunction[i]);
+  }
+  return 0;
+}
